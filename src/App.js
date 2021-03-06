@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 const api = {
   key: process.env.REACT_APP_API_KEY,
-  base: "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/"
+  base: "https://api.openweathermap.org/data/2.5/"
 }
 
 function App(){
